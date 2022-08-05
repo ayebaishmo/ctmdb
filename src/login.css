@@ -1,4 +1,45 @@
-.App {
+.LoginP {
+  margin: 0;
+  padding: 0;
+}
+
+.logindivs {
   display: flex;
-  flex-direction: column;
+  background-color: #80ffaa;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.logindivs > div {
+  /* margin: 10px;
+  padding: 10px; */
+}
+
+.loginData {
+  background-color: white;
+}
+
+.one {
+}
+
+.two {
+  height: 290px;
+  margin-top: 120px;
+  margin-left: 200px;
+  border-radius: 25px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+button {
+
 }
