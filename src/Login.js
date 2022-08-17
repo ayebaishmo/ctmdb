@@ -1,28 +1,16 @@
 import './login.css';
+import med from './img/med.JPG';
 
 function Login() {
   return (
     <div className="LoginP">
       <div className='logindivs'>
-        <div className='loginData one'>
-          <h1>Chimpnzee Trust</h1>
-          <h2>Login</h2>
-          <ul>
-            <li>
-              <label htmlFor="username">Username</label>
-              <input type="text" />
-            </li>
-            <li>
-              <label htmlFor="password">Password</label>
-              <input type="text" />
-            </li>
-            <li>
-              <button>Login</button>
-            </li>
-          </ul>
+        <div className=''>
+          <img className='medImg' src={med} alt="" />
         </div>
         <div className='loginData two'>
           <h1>Chimpnzee Trust</h1>
+          <h2>Medical records</h2>
           <h2>Login</h2>
           <ul>
             <li>
@@ -32,7 +20,7 @@ function Login() {
               <input type="text" placeholder='Password' />
             </li>
             <li>
-              <button>Login</button>
+              <button className='logB'>Login</button>
             </li>
           </ul>
         </div>
